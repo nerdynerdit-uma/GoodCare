@@ -1,0 +1,37 @@
+<svg width="250" height="120" viewBox="0 0 250 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <clipPath id="heartClip">
+      <path d="M125 20 C125 20, 100 10, 85 25 C70 40, 70 60, 80 75 C85 85, 100 100, 125 110 C150 100, 165 85, 170 75 C180 60, 180 40, 165 25 C150 10, 125 20, 125 20 Z"/>
+    </clipPath>
+  </defs>
+  
+  <!-- Yellow Heart Shape -->
+  <path d="M125 20 C125 20, 100 10, 85 25 C70 40, 70 60, 80 75 C85 85, 100 100, 125 110 C150 100, 165 85, 170 75 C180 60, 180 40, 165 25 C150 10, 125 20, 125 20 Z" 
+        fill="#FFD700" stroke="#FFC700" stroke-width="1"/>
+  
+  <!-- Left Arm/Hand (white negative space within heart) -->
+  <g clip-path="url(#heartClip)">
+    <path d="M95 45 Q85 50, 88 58 Q90 65, 92 70 Q94 75, 98 80 Q100 82, 102 85" 
+          fill="white" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Hand -->
+    <ellipse cx="100" cy="88" rx="4" ry="5" fill="white"/>
+    <circle cx="97" cy="92" r="2" fill="white"/>
+    <circle cx="103" cy="92" r="2" fill="white"/>
+  </g>
+  
+  <!-- Right Arm/Hand (white negative space within heart) -->
+  <g clip-path="url(#heartClip)">
+    <path d="M155 45 Q165 50, 162 58 Q160 65, 158 70 Q156 75, 152 80 Q150 82, 148 85" 
+          fill="white" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Hand -->
+    <ellipse cx="150" cy="88" rx="4" ry="5" fill="white"/>
+    <circle cx="147" cy="92" r="2" fill="white"/>
+    <circle cx="153" cy="92" r="2" fill="white"/>
+  </g>
+  
+  <!-- GoodCare Text (Orange) -->
+  <text x="125" y="95" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="bold" fill="#FF8C00" text-anchor="middle">GoodCare</text>
+  
+  <!-- HOME HEALTH Text (Green) -->
+  <text x="125" y="110" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="600" fill="#28A745" text-anchor="middle" letter-spacing="2">HOME HEALTH</text>
+</svg>
