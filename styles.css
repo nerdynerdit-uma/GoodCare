@@ -446,6 +446,17 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 2rem;
 }
 
+@media (min-width: 769px) {
+    .service-card--below-supportive {
+        grid-column: 2;
+        grid-row: 2;
+    }
+    .service-card--below-hourly {
+        grid-column: 3;
+        grid-row: 2;
+    }
+}
+
 .service-card {
     background: var(--bg-white);
     padding: 2.5rem;
